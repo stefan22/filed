@@ -1,11 +1,13 @@
 # how to
 
 <kbd>tree :tree:</kbd>
-![](images/tree.png)
+![](builds/dev/images/tree.png)
 <hr />
 
+
+
 <kbd>landing-page</kbd>
-![](images/landing-page.png)
+![](builds/dev/images/landing-page.png)
 <hr />
 
 - ***first***: clone repository, type:
