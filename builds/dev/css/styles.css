@@ -1,0 +1,282 @@
+body {padding-top: 70px;}
+.wrapper {min-height:100%;}
+
+@import url("https://fonts.googleapis.com/css?family=Muli");
+@import url("https://fonts.googleapis.com/css?family=Muli|Work+Sans");
+
+h1, h2, h3 {
+  font-family: "Muli", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color:#fafafa;
+}
+
+
+h1 {
+  font-size: 2.5em;
+  color: #0d0d0d;
+  margin-bottom: .5em;
+  letter-spacing: -1px;
+  line-height: 42px;
+}
+
+h1 span {
+  display: block;
+  line-height: 75px;
+  font-size: 2em;
+  width:385px;
+  text-align:right;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin:.1em 0;
+}
+
+h2 {
+  font-size: 2em;
+  color: #a62319;
+  margin-bottom: .5em;
+}
+
+h3 {
+  font-size: 1.8em;
+  margin-bottom: .4em;
+  color: #a62319;
+}
+
+
+
+/* 
+------
+navbar
+------ */
+
+.navbar {
+  padding-bottom: 0;
+  -webkit-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.navbar-header p {
+  position: absolute;
+  top:15px;
+  right: 33%;
+  letter-spacing: 1px;
+}
+
+.navbar-toggle {
+  padding: 5px 10px;
+  margin-top: 8px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 26px;
+    height: 4px;
+    border-radius: 1px;
+}
+
+.navbar button#burgerking {
+  position: absolute;
+  top: 1px;
+  left:5%;
+}
+
+.navbar .navbar-toggle {
+  display: block;
+}
+
+.isopened {
+  padding: 4em;
+  background: rgba(0, 0, 0, 0.75);
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  transition: all 1s ease;
+}
+
+/*.. heroleft ..*/
+
+.hero {
+  margin-bottom: 3em;
+}
+
+ /*.. hero left ..*/
+
+.heroleft {
+  position: relative;
+  margin-left: 5em;
+}
+
+#pone {
+  position:absolute;
+  top:0;
+  left:0px;
+  
+  
+}
+
+#pone.pone {
+  left:-1000px;
+  
+}
+
+#ptwo {
+  position:absolute;
+  top:0;
+  left:0px;
+  
+}
+
+#ptwo.ptwo {
+  left:-1000px;
+  
+  
+}
+
+#pthree {
+  position:absolute;
+  top:0;
+  left:0px;
+  
+}
+
+#pthree.pthree {
+  left:-1000px;
+  
+  
+}
+
+
+/*.. hero right ..*/
+
+.heroright {
+  margin-top: 5em;
+}
+
+.phoneleft {
+  position: absolute;
+  left:7.5%;
+  top:17px;
+}
+
+.phoneright {
+  margin-left:10.75em;
+  margin-top:1.25em;
+}
+
+.heroright .selection {
+  margin: .5em 0 2em;
+}
+
+.heroright .circle {
+  display: inline-block;
+  margin-right: 5em;
+  border: 2px solid #54595e;
+  box-shadow: inset 0px 0px 0px 0px #14324c;
+}
+
+.heroright .circle:last-child {
+  margin-right: 1em;
+}
+
+.circle-silver {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-image: -moz-linear-gradient(#dcdcdc, #e8e8e8, #a7b2bd);
+  background-image: -ms-linear-gradient(#dcdcdc, #e8e8e8, #a7b2bd);
+  background-image: -o-linear-gradient(#dcdcdc, #e8e8e8, #a7b2bd);
+  background-image: linear-gradient(#dcdcdc, #e8e8e8, #a7b2bd);
+}
+
+.circle-black {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-image: -moz-linear-gradient(#dcdcdc, #1e2023, #233341);
+  background-image: -ms-linear-gradient(#dcdcdc, #1e2023, #233341);
+  background-image: -o-linear-gradient(#dcdcdc, #1e2023, #233341);
+  background-image: linear-gradient(#dcdcdc, #1e2023, #233341);
+}
+
+.circle-gold {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-image: -moz-linear-gradient(#fbdb3d, rgba(226, 180, 30, 0.75), #c7ac4d);
+  background-image: -ms-linear-gradient(#fbdb3d, rgba(226, 180, 30, 0.75), #c7ac4d);
+  background-image: -o-linear-gradient(#fbdb3d, rgba(226, 180, 30, 0.75), #c7ac4d);
+  background-image: linear-gradient(#fbdb3d, rgba(226, 180, 30, 0.75), #c7ac4d);
+}
+
+.circle {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  /*background-image: -moz-linear-gradient(#063053, #395873, #5c7c99);
+  background-image: -ms-linear-gradient(#063053, #395873, #5c7c99);
+  background-image: -o-linear-gradient(#063053, #395873, #5c7c99);
+  background-image: linear-gradient(#dcdcdc, #395873, #5c7c99);*/
+}
+
+.circle p {
+  margin-top: 2.25em;
+  color: rgb(49, 50, 57);
+  font-size: 1.6em;
+  letter-spacing: 1px;
+  font-weight: 400;
+  width: 101px;
+  margin-left: -30px;
+}
+
+.heroright .claimitnow button {
+  margin-left: 4em;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  text-shadow: 0px 1px black;
+}
+
+footer {
+  height: 90px;
+  margin-top: 12em;
+}
+
+footer p {
+  color: #0d0d0d;
+  font-size: 1.2em;
+  margin:1em 0;
+  text-align: justify;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
