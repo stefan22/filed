@@ -1,11 +1,15 @@
 'use strict';
 
-(function () {
-   /* globals */
+(function (global) {
+   /* burgerMove is the only function accessible from outer scope everything else
+   is private to this code block */
+   
    var sel = document.querySelector('.selection');
    var black = document.getElementById('pone');
    var silver = document.getElementById('ptwo');
    var gold = document.getElementById('pthree');
+   var burger =document.getElementById('burgerking');
+   var screenWidth;
 
    //this code block opens/closes navigation on a click event
    var button = document.querySelector('.navbar-header');
@@ -48,10 +52,28 @@
       //sets black phone as default
       black.className = "";
    } //defaultPhone fn
+   
+   //accessable through window scope
+   global.burgerMove = function() {
+      this.screenWidth = window.innerWidth;
+      this.screenWidth = this.screenWidth - this.screenWidth + 5;
+      console.log(this.screenWidth);
+      burger.style.left = -(this.screenWidth) + '%';
+      
+      
+   }; //burgerMove
+   
 
 
    //sets a phone as a default at page load
    document.addEventListener('DOMContentLoaded', defaultPhone, false);
-})(); //self-ex fn
+   
+   
+})(window); //self-ex fn
 
-//# sourceMappingURL=script.js.map
+
+
+
+
+//update burgerking position on screen resize event
+window.addEventListener('resize', burgerMove, false);

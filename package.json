@@ -14,7 +14,6 @@
   },
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
-    "dev:js-out": "babel builds/dev/js/*.js --watch --out-file builds/dev/js/script.js --source-maps",
     "build": "npm-run-all dist:*",
     "dev:localserver": "live-server builds/dev"
   },
