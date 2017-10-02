@@ -340,12 +340,94 @@ footer p {
     font-size:1em;
   }
   
-  
-  
-  
-  
+ 
 }
 
+
+@media screen and (max-width:768px) {
+ 
+.heroleft img {
+    max-width:150px;
+ }
+ 
+button#burgerking.navbar-toggle {
+    left: 3%;
+}
+
+.banner p {
+  top:18px;
+  font-size:12px;
+}
+
+.heroleft {
+  margin-left:2em;
+}
+
+.heroright {
+  margin:0;
+  margin-left:5em;
+}
+
+.heroright h1 {
+  margin:0;
+  font-size: 2em;
+  margin: 1.25em 0 .25em 0;
+  line-height:36px;
+}
+
+h1 span {
+  margin:0;
+  width:250px;
+  line-height:55px;
+}
+
+.heroright .selection {
+  width: 310px;
+  margin:0;
+}
+
+.heroright .circle {
+  margin-right: 4em;
+}
+
+.circle {
+  width:30px;
+  height:30px;
+}
+
+.circle p {
+  font-size:1.25em;
+  width:85px;
+  margin-left:-27px;
+  margin-top:1.75em;
+}
+
+.claimitnow {
+  width: 92%;
+  margin: 0;
+  margin-top:.75em;
+}
+
+.heroright .claimitnow button {
+  margin:0;
+  font-size:1.25em;
+  width:245px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+  
+}
 
 
 
