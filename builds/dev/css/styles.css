@@ -413,22 +413,94 @@ h1 span {
   font-size:1.25em;
   width:245px;
 }
-
-
-
-
-
-
-
-
-
-
- 
- 
  
   
 }
 
+
+
+@media screen and (max-width:414px) {
+ 
+.hero {
+  min-height:650px;
+}
+
+.navbar button#burgerking {
+  top:0;
+}
+
+.navbar-header.banner p {
+  top: 11px;
+  font-size: 10px;
+  left: 80px;
+}
+
+.hero .heroright {
+  margin:0;
+  margin-top:25em;
+}
+
+.hero .heroright h1 {
+  margin-bottom:0;
+}
+
+.hero .heroleft {
+  margin:0;
+}
+
+#pone, #ptwo, #pthree {
+  left:15px;
+}
+
+.heroright h1 span {
+    margin: 0;
+    line-height: 75px;
+    text-align: center;
+    width: 100%;
+}
+
+.heroright .selection {
+  width:100%;
+}
+
+.heroright .circle {
+  margin-right:3em;
+}
+
+.claimitnow {
+    width: 100%;
+    margin: 0;
+    margin-top: 1em;
+}
+
+}
+
+
+@media screen and (max-width:375px) {
+ 
+#pone, #ptwo, #pthree {
+  left:-3px;
+}
+
+}
+
+@media screen and (max-width:320px) {
+ 
+#pone, #ptwo, #pthree {
+  left:-30px;
+}
+
+.navbar-header.banner p {
+    top: 5px;
+    font-size: 10px;
+    left: 68px;
+}
+
+
+
+
+
+}
 
 
 
