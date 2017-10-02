@@ -1,9 +1,7 @@
 'use strict';
 
 (function (global) {
-   /* burgerMove is the only function accessible from outer scope everything else
-   is private to this code block */
-   
+   /* globals to this clode block - all fns private except for defaultPhone */
    var sel = document.querySelector('.selection');
    var black = document.getElementById('pone');
    var silver = document.getElementById('ptwo');
@@ -48,32 +46,18 @@
    }, false); //sel evt listener 
 
 
-   function defaultPhone() {
-      //sets black phone as default
+   global.defaultPhone = function() {
+      //sets default phone
       black.className = "";
-   } //defaultPhone fn
+   } //defaultPhone
    
-   //accessable through window scope
-   global.burgerMove = function() {
-      this.screenWidth = window.innerWidth;
-      this.screenWidth = this.screenWidth - this.screenWidth + 5;
-      console.log(this.screenWidth);
-      burger.style.left = -(this.screenWidth) + '%';
-      
-      
-   }; //burgerMove
    
 
-
-   //sets a phone as a default at page load
-   document.addEventListener('DOMContentLoaded', defaultPhone, false);
-   
-   
 })(window); //self-ex fn
 
 
 
 
 
-//update burgerking position on screen resize event
-window.addEventListener('resize', burgerMove, false);
+//sets a phone as a default at page load
+window.addEventListener('DOMContentLoaded', defaultPhone, false);
