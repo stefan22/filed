@@ -1,0 +1,224 @@
+[
+   {
+      "id":0,
+      "phone_manufacturer": "iPhone",
+      "phone_model":7,
+      "phone_color": "silver",
+      "phone_specs": [
+         {"display": "super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face ID":false}   
+      
+      
+      ],
+      "phone_price":"£700"
+      
+      
+      
+   },
+
+   {
+      "id":1,
+      "phone_manufacturer": "iPhone",
+      "phone_model":7,
+      "phone_color": "black",
+      "phone_specs": [
+         {"display": "super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face ID": false}   
+      
+      
+      ],
+      "phone_price":"£700"
+      
+      
+      
+   },
+
+   {
+      "id":2,
+      "phone_manufacturer": "iPhone",
+      "phone_model":7,
+      "phone_color": "gold",
+      "phone_specs": [
+         {"display": "super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face ID": false}   
+      
+      
+      ],
+      "phone_price":"£700"
+      
+      
+      
+   },
+
+   {
+      "id":3,
+      "phone_manufacturer": "iPhone",
+      "phone_model":8,
+      "phone_color": "silver",
+      "phone_specs": [
+         {"display": "super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face ID": true}   
+      
+      
+      ],
+      "phone_price":"£800"
+      
+      
+      
+   },
+
+   {
+      "id":4,
+      "phone_manufacturer": "iPhone",
+      "phone_model":8,
+      "phone_color": "gold",
+      "phone_specs": [
+         {"display": "super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face ID": true}   
+      
+      
+      ],
+      "phone_price":"£800"
+      
+      
+      
+   },
+
+   {
+      "id":5,
+      "phone_manufacturer": "iPhone",
+      "phone_model":7,
+      "phone_color": "silver",
+      "phone_specs": [
+         {"display": "super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face ID": false}   
+      
+      
+      ],
+      "phone_price":"£700"
+      
+      
+      
+   },
+
+   {
+      "id":6,
+      "phone_manufacturer": "iPhone",
+      "phone_model":7,
+      "phone_color": "silver",
+      "phone_specs": [
+         {"display": "super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face ID": false}   
+      
+      
+      ],
+      "phone_price":"£700"
+      
+      
+      
+   },
+
+   {
+      "id":7,
+      "phone_manufacturer": "iPhone",
+      "phone_model":7,
+      "phone_color": "black",
+      "phone_specs": [
+         {"display": "super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face ID": false}   
+      
+      
+      ],
+      "phone_price":"£700"
+      
+      
+      
+   },
+
+   {
+      "id":8,
+      "phone_manufacturer": "iPhone",
+      "phone_model":8,
+      "phone_color": "silver",
+      "phone_specs": [
+         {"display": "super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face ID": true}   
+      
+      
+      ],
+      "phone_price":"£800"
+      
+      
+      
+   },
+
+   {
+      "id":9,
+      "phone_manufacturer": "iPhone",
+      "phone_model":8,
+      "phone_color": "gold",
+      "phone_specs": [
+         {"display": "super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face ID": true}   
+      
+      
+      ],
+      "phone_price":"£800"
+      
+      
+      
+   },
+
+   {
+      "id":10,
+      "phone_manufacturer": "iPhone",
+      "phone_model":7,
+      "phone_color": "silver",
+      "phone_specs": [
+         {"display": "super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face ID": false}   
+      
+      
+      ],
+      "phone_price":"£700"
+      
+      
+      
+   }
+]   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
