@@ -1,8 +1,8 @@
 # how to
 
-<kbd>tree :tree:</kbd>
+<kbd>phone latest</kbd>
 
-![](builds/dev/images/tree.png)
+![](builds/dev/images/phone-latest.png)
 <hr />
 
 <kbd>landing-page</kbd>
@@ -40,33 +40,12 @@
 
 
 
-
-
-
 - ***first***: clone repository, type:
 
-```
-   git clone https://github.com/filed.git
+- ***second***: install dependencies (npm install)
 
-```
-- ***second***: install dependencies, type:
+- third: run server `npm start` in terminal
 
-```
-   npm install          // enter
-
-```
-
-> if it gets stuck, update npm or node.
-
-
-- third & last: run server `npm start` in terminal
-
-
-## or go to builds dev folder
-
-- copy and paste: html, css, images, js folders to desktop
-
-> npm scripts runs live server and watches/updates on changes.
 
 
 
