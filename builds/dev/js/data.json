@@ -1,14 +1,14 @@
 [
    {
       "id":0,
-      "phone_manufacturer": "iPhone",
+      "phone_manufacturer": "IPhone",
       "phone_model":7,
-      "phone_color": "silver",
+      "phone_color": "Silver",
       "phone_specs": [
-         {"display": "super retina"},
+         {"display": "Super retina"},
          {"height": "5.65 inches"},
          {"width": "2.79 inches"},
-         {"face ID":false}   
+         {"face_id":false}   
       
       
       ],
@@ -20,11 +20,11 @@
 
    {
       "id":1,
-      "phone_manufacturer": "iPhone",
+      "phone_manufacturer": "IPhone",
       "phone_model":7,
-      "phone_color": "black",
+      "phone_color": "Black",
       "phone_specs": [
-         {"display": "super retina"},
+         {"display": "Super retina"},
          {"height": "5.65 inches"},
          {"width": "2.79 inches"},
          {"face ID": false}   
@@ -39,11 +39,11 @@
 
    {
       "id":2,
-      "phone_manufacturer": "iPhone",
+      "phone_manufacturer": "IPhone",
       "phone_model":7,
-      "phone_color": "gold",
+      "phone_color": "Gold",
       "phone_specs": [
-         {"display": "super retina"},
+         {"display": "Super retina"},
          {"height": "5.65 inches"},
          {"width": "2.79 inches"},
          {"face ID": false}   
@@ -58,11 +58,11 @@
 
    {
       "id":3,
-      "phone_manufacturer": "iPhone",
+      "phone_manufacturer": "IPhone",
       "phone_model":8,
-      "phone_color": "silver",
+      "phone_color": "Silver",
       "phone_specs": [
-         {"display": "super retina"},
+         {"display": "Super retina"},
          {"height": "5.65 inches"},
          {"width": "2.79 inches"},
          {"face ID": true}   
@@ -77,11 +77,11 @@
 
    {
       "id":4,
-      "phone_manufacturer": "iPhone",
+      "phone_manufacturer": "IPhone",
       "phone_model":8,
-      "phone_color": "gold",
+      "phone_color": "Gold",
       "phone_specs": [
-         {"display": "super retina"},
+         {"display": "Super retina"},
          {"height": "5.65 inches"},
          {"width": "2.79 inches"},
          {"face ID": true}   
@@ -96,11 +96,11 @@
 
    {
       "id":5,
-      "phone_manufacturer": "iPhone",
+      "phone_manufacturer": "IPhone",
       "phone_model":7,
-      "phone_color": "silver",
+      "phone_color": "Silver",
       "phone_specs": [
-         {"display": "super retina"},
+         {"display": "Super retina"},
          {"height": "5.65 inches"},
          {"width": "2.79 inches"},
          {"face ID": false}   
@@ -115,11 +115,11 @@
 
    {
       "id":6,
-      "phone_manufacturer": "iPhone",
+      "phone_manufacturer": "IPhone",
       "phone_model":7,
-      "phone_color": "silver",
+      "phone_color": "Silver",
       "phone_specs": [
-         {"display": "super retina"},
+         {"display": "Super retina"},
          {"height": "5.65 inches"},
          {"width": "2.79 inches"},
          {"face ID": false}   
@@ -134,11 +134,11 @@
 
    {
       "id":7,
-      "phone_manufacturer": "iPhone",
+      "phone_manufacturer": "IPhone",
       "phone_model":7,
-      "phone_color": "black",
+      "phone_color": "Black",
       "phone_specs": [
-         {"display": "super retina"},
+         {"display": "Super retina"},
          {"height": "5.65 inches"},
          {"width": "2.79 inches"},
          {"face ID": false}   
@@ -153,11 +153,11 @@
 
    {
       "id":8,
-      "phone_manufacturer": "iPhone",
+      "phone_manufacturer": "IPhone",
       "phone_model":8,
-      "phone_color": "silver",
+      "phone_color": "Silver",
       "phone_specs": [
-         {"display": "super retina"},
+         {"display": "Super retina"},
          {"height": "5.65 inches"},
          {"width": "2.79 inches"},
          {"face ID": true}   
@@ -172,11 +172,11 @@
 
    {
       "id":9,
-      "phone_manufacturer": "iPhone",
+      "phone_manufacturer": "IPhone",
       "phone_model":8,
-      "phone_color": "gold",
+      "phone_color": "Gold",
       "phone_specs": [
-         {"display": "super retina"},
+         {"display": "Super retina"},
          {"height": "5.65 inches"},
          {"width": "2.79 inches"},
          {"face ID": true}   
@@ -191,11 +191,11 @@
 
    {
       "id":10,
-      "phone_manufacturer": "iPhone",
+      "phone_manufacturer": "IPhone",
       "phone_model":7,
-      "phone_color": "silver",
+      "phone_color": "Silver",
       "phone_specs": [
-         {"display": "super retina"},
+         {"display": "Super retina"},
          {"height": "5.65 inches"},
          {"width": "2.79 inches"},
          {"face ID": false}   

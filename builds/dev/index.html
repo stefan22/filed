@@ -31,7 +31,7 @@
         </div>
         <!-- /.container -->
     </nav>
-    
+    <!--/.. ng-controller -->
     <div class="container wrapper" ng-controller="Phones"> 
         <div class="row">
             <div class="col-lg-12 text-center hero">
@@ -41,6 +41,7 @@
                             <img class="phoneleft" src="images/black-left1.png" width="210" height="auto" alt="phone-left">
                             <img class="phoneright" src="images/black-right1.png" width="210" height="auto" alt="phone-right">
                         </div><!--/. endof pone -->
+                        
                         <div id="ptwo" class="ptwo">
                             <img class="phoneleft" src="images/silver-left.png" width="210" height="auto" alt="phone-left">
                             <img class="phoneright" src="images/silver-right.png" width="210" height="auto" alt="phone-right">
@@ -58,18 +59,24 @@
                         <span>IPhone 7</span>
                         </h1>
                         <div class="selection">
-                            <div class="circle circle-silver">
-                                <p>{{silver}}</p>
+                            <div class="circle circle-silver" ng-click="selectedPhone = 0">
+                                <p>Silver</p>
                             </div>
-                            <div class="circle circle-black">
-                                <p>{{black}}</p>
+                            <div class="circle circle-black" ng-click="selectedPhone = 1">
+                                <p ng-click="selectedPhone = 1">Black</p>
                             </div>
-                            <div class="circle circle-gold">
-                                <p>{{gold}}</p>
+                            <div class="circle circle-gold" ng-click="selectedPhone = 2">
+                                <p ng-click="selectedPhone = 2">Gold</p>
                             </div>
                         </div><!--/. endof selection -->
                         <div class="col-md-8 col-sm-12 col-xs-12 claimitnow">
-                            <button type="button" ng-click="selectedPhone = 0" class="btn btn-primary btn-lg btn-block">Claim it now</button>
+                            <button type="button" ng-click="selectedPhone = -2" class="btn btn-primary btn-lg btn-block">Claim it now</button>
+                            <br/><br/>
+
+                            
+                        <br/><br/>    
+                        
+                            
                         </div><!--/. claimitnow -->    
                     </div><!--/.  heroright -->
                 </div><!--/. endof col-md-6 --> 
@@ -79,12 +86,42 @@
         
         <div class="row">
             <div class="col-md12 text-center">
-                <section id="messages">
-                    <h3>We have {{totalPhones}} brand new phones available for sale!</h3>
-                    <div class="list {{($index == 'selectedPhone') ? 'show':'noshow'}}" ng-repeat="phone in phones">
-               
+                <section id="messages" class="{{(selectedPhone > -1) ? 'showinfo': 'noshow'}}">
+                    <h3>We have {{totalPhones}} brand new phones available for sale!
+                    </h3>
+                    <div class="phoneinfo">
+                        <dl>
+                            <dt>Phone Manufacturer</dt>
+                            <dd>{{phones[selectedPhone].phone_manufacturer}}
+                            </dd>
+                            
+                            <dt>Phone Model</dt> 
+                            <dd>{{phones[selectedPhone].phone_model}}</dd>
+                           
+                            <dt>Phone Color</dt> 
+                            <dd>{{phones[selectedPhone].phone_color}}</dd>
+                        </dl>    
+                        <p>Phone Specs:</p> 
+                        <dl>
+                           <dt>Display</dt>
+                           <dd>{{phones[selectedPhone].phone_specs[0]["display"]}}</dd>
+                            
+                           <dt>Height</dt> 
+                           <dd>{{phones[selectedPhone].phone_specs[1]["height"]}}</dd>
+                           
+                           <dt>Width</dt> 
+                           <dd>{{phones[selectedPhone].phone_specs[2]["width"]}}
+                           </dd>
+                            
+                           <dt>Face id</dt> 
+                           <dd>{{phones[selectedPhone].phone_specs[3]["face_id"]}}
+                           </dd>
+                        </dl>    
+                        
+                    </div>
+                   <!--/.. phone info -->
+                    
                 </section>
-                
                 
             </div>    
         </div>        

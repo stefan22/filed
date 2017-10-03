@@ -269,6 +269,82 @@ footer p {
   
 }
 
+#messages {
+  display: block;
+  visibility: hidden;
+  opacity:0;
+}
+
+#messages.showinfo {
+  min-height: 250px;
+  display: block;
+  padding: .5em;
+  visibility: visible;
+  opacity:1;
+  transition: visibility 1s ease;
+}
+
+#messages.noshow {
+  min-height: 250px;
+  padding: .5em;
+  visibility: hidden;
+  opacity:0;
+  
+}
+
+#messages h3 {
+  
+}
+
+.phoneinfo {
+  width:400px;
+  margin:0 auto;
+}
+
+.phoneinfo p {
+  color: #333;
+  width:188px;
+  text-align: right;
+  margin:0;
+}
+
+.phoneinfo > dl {
+  padding: 0;
+  margin: 1em 0 1em 1em;
+}
+
+.phoneinfo dl dt {
+  float: left;
+  clear: left;
+  width: 175px;
+  text-align: right;
+  font-weight: bold;
+  color: #a62319;
+  margin-right: 10px;
+
+}
+
+.phoneinfo dl:last-child {
+  margin-top:.25em;
+}
+
+
+dt::after {
+  content: ":";
+}
+
+dd {
+  margin:0;
+  padding:0;
+  text-align: left;
+
+}
+
+
+
+
+
+
 
 @media screen and (max-width:1200px) {
   .banner p {

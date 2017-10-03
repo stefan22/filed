@@ -3,10 +3,8 @@
 var app = angular.module('app', []);
 //controller
 app.controller('Phones', ['$scope', '$http', '$sce', function($scope,$http,$sce) {
-   $scope.silver = 'Silver';
-   $scope.black = 'Black';
-   $scope.gold = 'Gold';
-   
+   //phoneColor & selectedPhone
+   $scope.phoneColor = '';
    $scope.selectedPhone = -1;
    
    $http.get('js/data.json').then(function(res) {
