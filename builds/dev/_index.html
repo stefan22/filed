@@ -31,25 +31,25 @@
         </div>
         <!-- /.container -->
     </nav>
-    <!--/. ng-controller -->
+    <!--/.. ng-controller -->
     <div class="container wrapper" ng-controller="Phones"> 
         <div class="row">
             <div class="col-lg-12 text-center hero">
                 <div class="col-md-5 col-sm-5 col-xs-12">
                     <div class="heroleft">
-                      
-                    <div id="pall" class="{{($index == selectedPhone) ? '' : 'away'}}" ng-repeat="phone in phones">
+                        <div id="pone" class="pone">
+                            <img class="phoneleft" src="images/black-left1.png" width="210" height="auto" alt="phone-left">
+                            <img class="phoneright" src="images/black-right1.png" width="210" height="auto" alt="phone-right">
+                        </div><!--/. endof pone -->
                         
-                          <img class="phoneleft" src="{{phone.picleft}}" width="210" height="auto" alt="{{phone.phone_color}}">
-                            
-                          <img class="phoneright" src="{{phone.picright}}" width="210" height="auto" alt="{{phone.phone_color}}">
-                          
-                    </div>
-                        
-                       
-                    
-                        
-                         
+                        <div id="ptwo" class="ptwo">
+                            <img class="phoneleft" src="images/silver-left.png" width="210" height="auto" alt="phone-left">
+                            <img class="phoneright" src="images/silver-right.png" width="210" height="auto" alt="phone-right">
+                        </div><!--/. endof pone -->
+                        <div id="pthree" class="pthree">
+                            <img class="phoneleft" src="images/gold-left.png" width="210" height="auto" alt="phone-left">
+                            <img class="phoneright" src="images/gold-right.png" width="210" height="auto" alt="phone-right">
+                        </div><!--/. endof pone -->
                     </div><!--/.  heroleft -->   
                 </div><!--/. endof col-md-6 -->    
                 <div class="col-md-6 col-sm-7 col-xs-12">
@@ -151,6 +151,6 @@
 <script src="js/lib/angular.route.min.js"></script>
 <script src="js/lib/angular.resource.min.js"></script>
 <script src="js/app.js"></script>
-<!-- <script src="js/script.js"></script> -->
+<script src="js/script.js"></script>
 </body>
 </html>

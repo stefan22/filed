@@ -3,9 +3,9 @@
 var app = angular.module('app', []);
 //controller
 app.controller('Phones', ['$scope', '$http', '$sce', function($scope,$http,$sce) {
-   //phoneColor & selectedPhone
-   $scope.phoneColor = '';
-   $scope.selectedPhone = -1;
+   //selectedPhone
+   $scope.selectedPhone = 1;
+   $scope.claimed = -1;
    
    $http.get('js/data.json').then(function(res) {
       $scope.phones = res.data;
@@ -13,6 +13,18 @@ app.controller('Phones', ['$scope', '$http', '$sce', function($scope,$http,$sce)
       $scope.totalPhones = $scope.phones.length;
       
    });
+   
+   
+   
+   $scope.phoneColor = function(selectedPhone) {
+     if($scope.selectedPhone == 0) {
+         return $scope.phoneColor = 'pone';
+     } 
+      
+   };
+   
+   
+  
    
    
    

@@ -125,6 +125,20 @@ navbar
   margin-left: 5em;
 }
 
+#pall {
+  position:absolute;
+  top:0;
+  left:0px;
+  
+  
+}
+
+#pall.away {
+  left:-10000px;
+  
+}
+
+
 #pone {
   position:absolute;
   top:0;
@@ -248,8 +262,11 @@ navbar
   margin-left: -30px;
 }
 
+.claimitnow {
+  margin-left: 5em;
+}
+
 .heroright .claimitnow button {
-  margin-left: 4em;
   font-size: 1.5em;
   letter-spacing: 1px;
   text-shadow: 0px 1px black;
@@ -338,6 +355,27 @@ dd {
   padding:0;
   text-align: left;
 
+}
+
+.claimed {
+  visibility:hidden;
+  opacity:0;
+}
+
+.claimed.success {
+  visibility:visible;
+  opacity:1;
+}
+
+.claimed.success p {
+  color:#333;
+  font-size:1.2em;
+  text-align:left;
+}
+
+.claimed.failure {
+  visibility:hidden;
+  opacity:0;
 }
 
 

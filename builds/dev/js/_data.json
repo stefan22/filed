@@ -1,0 +1,237 @@
+[
+   {
+      "id":0,
+      "phone_manufacturer": "IPhone",
+      "phone_model":7,
+      "phone_color": "Silver",
+      "phone_specs": [
+         {"display": "Super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face_id":false}   
+      
+      
+      ],
+      "phone_price":"£700",
+      "picleft":"../images/silver-left.png",
+      "picright":"../images/silver-right.png"
+      
+      
+      
+   },
+
+   {
+      "id":1,
+      "phone_manufacturer": "IPhone",
+      "phone_model":7,
+      "phone_color": "Black",
+      "phone_specs": [
+         {"display": "Super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face_id": false}   
+      
+      
+      ],
+      "phone_price":"£700",
+      "picleft":"../images/black-left.png",
+      "picright":"../images/black-right.png"
+      
+      
+      
+   },
+
+   {
+      "id":2,
+      "phone_manufacturer": "IPhone",
+      "phone_model":7,
+      "phone_color": "Gold",
+      "phone_specs": [
+         {"display": "Super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face_id": false}   
+      
+      
+      ],
+      "phone_price":"£700",
+      "picture":"../images/gold-left.png"
+      
+      
+      
+   },
+
+   {
+      "id":3,
+      "phone_manufacturer": "IPhone",
+      "phone_model":8,
+      "phone_color": "Silver",
+      "phone_specs": [
+         {"display": "Super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face_id": true}   
+      
+      
+      ],
+      "phone_price":"£800",
+      "picture":"../images/silver-left.png"
+      
+      
+      
+   },
+
+   {
+      "id":4,
+      "phone_manufacturer": "IPhone",
+      "phone_model":8,
+      "phone_color": "Gold",
+      "phone_specs": [
+         {"display": "Super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face_id": true}   
+      
+      
+      ],
+      "phone_price":"£800",
+      "picture":"../images/gold-left.png"
+      
+      
+      
+   },
+
+   {
+      "id":5,
+      "phone_manufacturer": "IPhone",
+      "phone_model":7,
+      "phone_color": "Silver",
+      "phone_specs": [
+         {"display": "Super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face_id": false}   
+      
+      
+      ],
+      "phone_price":"£700",
+      "picture":"../images/silver-left.png"
+      
+      
+      
+   },
+
+   {
+      "id":6,
+      "phone_manufacturer": "IPhone",
+      "phone_model":7,
+      "phone_color": "Silver",
+      "phone_specs": [
+         {"display": "Super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face_id": false}   
+      
+      
+      ],
+      "phone_price":"£700",
+      "picture":"../images/silver-left.png"
+      
+      
+      
+   },
+
+   {
+      "id":7,
+      "phone_manufacturer": "IPhone",
+      "phone_model":7,
+      "phone_color": "Black",
+      "phone_specs": [
+         {"display": "Super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face_id": false}   
+      
+      
+      ],
+      "phone_price":"£700",
+      "picture":"../images/black-left.png"
+      
+      
+      
+   },
+
+   {
+      "id":8,
+      "phone_manufacturer": "IPhone",
+      "phone_model":8,
+      "phone_color": "Silver",
+      "phone_specs": [
+         {"display": "Super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face_id": true}   
+      
+      
+      ],
+      "phone_price":"£800",
+      "picture":"../images/silver-left.png"
+      
+      
+      
+   },
+
+   {
+      "id":9,
+      "phone_manufacturer": "IPhone",
+      "phone_model":8,
+      "phone_color": "Gold",
+      "phone_specs": [
+         {"display": "Super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face_id": true}   
+      
+      
+      ],
+      "phone_price":"£800",
+      "picture":"../images/gold-left.png"
+      
+      
+      
+   },
+
+   {
+      "id":10,
+      "phone_manufacturer": "IPhone",
+      "phone_model":7,
+      "phone_color": "Silver",
+      "phone_specs": [
+         {"display": "Super retina"},
+         {"height": "5.65 inches"},
+         {"width": "2.79 inches"},
+         {"face_id": false}   
+      
+      
+      ],
+      "phone_price":"£700",
+      "picture":"../images/silver-left.png"
+      
+      
+      
+   }
+]   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
