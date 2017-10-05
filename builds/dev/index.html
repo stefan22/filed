@@ -34,25 +34,19 @@
     <!--/. ng-controller -->
     <div class="container wrapper" ng-controller="Phones"> 
         <div class="row">
-            <div class="col-lg-12 text-center hero">
-                <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center hero">
+                <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="heroleft">
-                      
-                    <div id="pall" class="{{($index == selectedPhone) ? '' : 'away'}}" ng-repeat="phone in phones">
-                        
-                          <img class="phoneleft" src="{{phone.picleft}}" width="210" height="auto" alt="{{phone.phone_color}}">
+                        <div id="pall" class="{{($index == selectedPhone) ? '' : 'away'}}" ng-repeat="phone in phones">
                             
-                          <img class="phoneright" src="{{phone.picright}}" width="210" height="auto" alt="{{phone.phone_color}}">
-                          
-                    </div>
-                        
-                       
-                    
-                        
-                         
-                    </div><!--/.  heroleft -->   
-                </div><!--/. endof col-md-6 -->    
-                <div class="col-md-6 col-sm-7 col-xs-12">
+                              <img class="phoneleft" src="{{phone.picleft}}" width="210" height="auto" alt="{{phone.phone_color}}">
+                                
+                              <img class="phoneright" src="{{phone.picright}}" width="210" height="auto" alt="{{phone.phone_color}}">  
+                        </div> <!--/. endof pall -->
+                    </div> <!--/. endof heroleft --> 
+                </div><!--/. endof col-md-5 --> 
+                   
+                <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="heroright">
                         <h1>Discover a new world of phones.<br />
                         claim your own
@@ -68,24 +62,23 @@
                             <div class="circle circle-gold" ng-click="selectedPhone = 2">
                                 <p>Gold</p>
                             </div>
-                        </div><!--/. endof selection -->
-                        <div class="col-md-8 col-sm-12 col-xs-12 claimitnow">
+                        </div>
+                        <!--/. endof selection -->
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 claimitnow">
                             <button type="button" ng-click="phoneClaimed(7)" class="btn btn-primary btn-lg btn-block">Claim it now</button>
-                            <br/><br/>
-
-                            
-                        <br/><br/>    
-                        
-                            
-                        </div><!--/. claimitnow -->    
-                    </div><!--/.  heroright -->
-                </div><!--/. endof col-md-6 --> 
+                        </div>
+                        <!--/. claimitnow -->    
+                    </div>
+                    <!--/.  heroright -->
+                </div>
+                <!--/. endof col-md-6 --> 
             </div>
+            <!--/. endof hero -->
         </div>
         <!-- /.row -->
         
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 text-center">
                 <section id="messages" class="{{(selectedPhone > -1) ? 'showinfo': 'noshow'}}">
                     <h3>We have {{totalPhones}} brand new phones available for sale!
                     </h3>
@@ -119,26 +112,23 @@
                         </dl>    
                         
                     </div>
-                   <!--/.. phone info -->  
+                    <!--/.. phone info -->  
                 </section>
                 
                
                 
                 <div class="claimed {{(claimed == 7) ? 'success':'failure'}}">
-                    
-                    
-                    
                     <p>Your claimed for: {{phones[selectedPhone].phone_model}}</p>
                 </div>
                 
             </div>    
         </div>        
-        
+        <!--/. enof row -->
     </div>
-    <!--/.. endof ng-controller -->
+    <!--/.. endof wrapper ng-controller -->
     <footer>
         <div class="container">
-            <div class="col-lg-12">
+            <div class="col-md-12 col-sm-12 col-xs-12">
                 <p>Subscription Service Fee £ 2.03 (inclVAT) per sms, 3sms per week (not including your fixed newtwork fees). The users must prove that they have been tested by the provider of the network to gain access to this content. We reserve the right promotional material sending which we think will interest you. Service Provider: Veoo. Hotline: 80009700. Email: infocy@veoo.com. To end the service send OFF WIN in 6808. For deletion from our promotional mailing lists to send OFF LISTS 6808.0 winner randomly selected every 3 minesT in 6808.</p>
             </div>
         </div>    

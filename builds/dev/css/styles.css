@@ -115,20 +115,20 @@ navbar
 /*.. hero ..*/
 
 .hero {
-  min-height:500px;
+  height:500px;
 }
 
  /*.. hero left ..*/
 
 .heroleft {
   position: relative;
-  margin-left: 5em;
+  min-height:500px;
 }
 
 #pall {
   position:absolute;
   top:0;
-  left:0px;
+  left:20%;
   
   
 }
@@ -183,6 +183,7 @@ navbar
 
 .heroright {
   margin-top: 5em;
+  height:430px;
 }
 
 .phoneleft {
@@ -193,11 +194,11 @@ navbar
 
 .phoneright {
   margin-left:10.75em;
-  margin-top:1.25em;
+  padding-top:1.25em;
 }
 
 .heroright .selection {
-  margin: .5em 0 2em;
+  margin: 0 0 2em 0;
 }
 
 .heroright .circle {
@@ -263,13 +264,14 @@ navbar
 }
 
 .claimitnow {
-  margin-left: 5em;
+ 
 }
 
 .heroright .claimitnow button {
   font-size: 1.5em;
   letter-spacing: 1px;
   text-shadow: 0px 1px black;
+  
 }
 
 footer {
@@ -314,8 +316,8 @@ footer p {
 }
 
 .phoneinfo {
-  width:400px;
   margin:0 auto;
+  width:75%;
 }
 
 .phoneinfo p {
@@ -460,8 +462,12 @@ dd {
 
 @media screen and (max-width:768px) {
  
+.hero {height:425px;} 
+.heroleft {min-height:425px;}
+
 .heroleft img {
     max-width:150px;
+    
  }
  
 button#burgerking.navbar-toggle {
@@ -551,19 +557,31 @@ h1 span {
 
 .hero .heroright {
   margin:0;
-  margin-top:25em;
+  margin-top:2.5em;
 }
 
 .hero .heroright h1 {
-  margin-bottom:0;
+  margin:0;
+ 
+}
+
+.heroright .selection {
+    margin-left: .5em;
 }
 
 .hero .heroleft {
   margin:0;
+  min-height:330px;
 }
 
 #pone, #ptwo, #pthree {
   left:15px;
+}
+
+#pall {
+    position: absolute;
+    top: 0;
+    left: 15px;
 }
 
 .heroright h1 span {
@@ -587,6 +605,10 @@ h1 span {
     margin-top: 1em;
 }
 
+#messages.showinfo {
+  margin-top:5em;
+}
+
 }
 
 
@@ -595,6 +617,35 @@ h1 span {
 #pone, #ptwo, #pthree {
   left:-3px;
 }
+
+.hero {
+  min-height:700px;
+}
+
+#messages.showinfo {
+    margin-top: 1em;
+}
+
+.heroright .claimitnow button {
+    margin-left: 1.75em;
+}
+
+.hero .heroright h1 {
+    margin: 0;
+    margin-left: 1.3em;
+    width:100%;
+}
+
+.heroright .selection {
+    margin-left: 1.35em;
+}
+
+.showinfo h3 {
+  width:100%;
+  margin:0;
+  margin-left:.5em;
+}
+
 
 }
 
