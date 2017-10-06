@@ -282,8 +282,7 @@ navbar
 }
 
 footer {
-  height: 150px;
-  margin-top: 7em;
+  margin-top: 5em;
 }
 
 footer p {
@@ -563,7 +562,7 @@ h1 span {
 @media screen and (max-width:414px) {
  
 .hero {
-  min-height:650px;
+  min-height:675px;
 }
 
 .navbar button#burgerking {
@@ -579,6 +578,7 @@ h1 span {
 .hero .heroright {
   margin:0;
   margin-top:2.5em;
+  height:300px;
 }
 
 .hero .heroright h1 {
@@ -587,7 +587,7 @@ h1 span {
 }
 
 .heroright .selection {
-    margin-left: .5em;
+   
 }
 
 .hero .heroleft {
@@ -627,7 +627,21 @@ h1 span {
 }
 
 #messages.showinfo {
-  margin-top:5em;
+  margin-top:3em;
+}
+
+.phoneinfo {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.phoneinfo > dl {
+    padding: 0;
+    margin: 1em 0 1em 0em;
+}    
+
+footer {
+    margin-top: 3em;
 }
 
 }
@@ -639,32 +653,31 @@ h1 span {
   left:-3px;
 }
 
+#pall {
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
 .hero {
   min-height:700px;
 }
 
 #messages.showinfo {
-    margin-top: 1em;
+    margin:0;
 }
 
-.heroright .claimitnow button {
-    margin-left: 1.75em;
-}
+
 
 .hero .heroright h1 {
     margin: 0;
-    margin-left: 1.3em;
-    width:100%;
 }
 
-.heroright .selection {
-    margin-left: 1.35em;
-}
+
 
 .showinfo h3 {
   width:100%;
   margin:0;
-  margin-left:.5em;
 }
 
 
@@ -676,10 +689,36 @@ h1 span {
   left:-30px;
 }
 
+#pall {
+    position: absolute;
+    top: 0;
+    left: -30px;
+}
+
 .navbar-header.banner p {
     top: 5px;
     font-size: 10px;
     left: 68px;
+}
+
+.phoneleft {
+    left: 11.5%;
+}
+
+.phoneright {
+    margin-left: 9.75em;
+}
+
+.phoneinfo dl dt {
+  width:165px;
+}
+
+.phoneinfo p {
+  width:165px;
+}
+
+footer {
+  margin-top:1em;
 }
 
 
