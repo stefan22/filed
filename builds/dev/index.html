@@ -48,26 +48,29 @@
                    
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="heroright">
-                        <h1>Discover a new world of phones.<br />
-                        claim your own
-                        <span>IPhone 7</span>
-                        </h1>
-                        <div class="selection">
-                            <div class="circle circle-silver" ng-click="selectedPhone = 0" >
-                                <p>Silver</p>
+                            <div class="rightbox">
+                                <h1>Discover a new world of phones.<br />
+                            claim your own
+                            <span>IPhone 7</span>
+                            </h1>
+                            <div class="selection">
+                                <div class="circle circle-silver" ng-click="selectedPhone = 0" >
+                                    <p>Silver</p>
+                                </div>
+                                <div class="circle circle-black" ng-click="selectedPhone = 1">
+                                    <p>Black</p>
+                                </div>
+                                <div class="circle circle-gold" ng-click="selectedPhone = 2">
+                                    <p>Gold</p>
+                                </div>
                             </div>
-                            <div class="circle circle-black" ng-click="selectedPhone = 1">
-                                <p>Black</p>
+                            <!--/. endof selection -->
+                            <div class="col-md-11 col-md-offset-1 col-sm-12 col-xs-12 claimitnow">
+                                <button type="button" ng-click="phoneClaimed(7)" class="btn btn-primary btn-lg btn-block">Claim it now</button>
                             </div>
-                            <div class="circle circle-gold" ng-click="selectedPhone = 2">
-                                <p>Gold</p>
+                            <!--/. claimitnow -->   
                             </div>
-                        </div>
-                        <!--/. endof selection -->
-                        <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 claimitnow">
-                            <button type="button" ng-click="phoneClaimed(7)" class="btn btn-primary btn-lg btn-block">Claim it now</button>
-                        </div>
-                        <!--/. claimitnow -->    
+                            <!--/. endof rightbox -->      
                     </div>
                     <!--/.  heroright -->
                 </div>

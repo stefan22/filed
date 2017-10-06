@@ -31,18 +31,16 @@ h1 {
 h1 span {
   display: block;
   line-height: 75px;
-  font-size: 2em;
-  width:385px;
-  text-align:right;
-  font-weight: 100;
-  letter-spacing: 1px;
-  margin:.1em 0;
+  font-size: 2em; 
+  text-align: center;
+  font-weight: 100; 
+  margin-right: .5em;
 }
 
 h2 {
   font-size: 2em;
   color: #a62319;
-  margin-bottom: .5em;
+  margin-bottom: .58em;
 }
 
 h3 {
@@ -186,6 +184,11 @@ navbar
   height:430px;
 }
 
+.rightbox {
+  overflow: auto;
+  margin-right: 3em;
+}
+
 .phoneleft {
   position: absolute;
   left:7.5%;
@@ -203,13 +206,17 @@ navbar
 
 .heroright .circle {
   display: inline-block;
-  margin-right: 5em;
+  margin-right: 4.5em;
   border: 2px solid #54595e;
   box-shadow: inset 0px 0px 0px 0px #14324c;
 }
 
 .heroright .circle:last-child {
   margin-right: 1em;
+}
+
+.circle.circle-silver {
+  margin-left:1em;
 }
 
 .circle-silver {
@@ -391,66 +398,69 @@ dd {
     left:15%;
   }
   
-  button#burgerking.navbar-toggle {
-    left:1%;
-  }
+button#burgerking.navbar-toggle {
+  left:1%;
+}
   
-  .heroleft {
-    margin-left:3em;;
-  }
   
-  img.phoneleft, img.phoneright {
+  
+img.phoneleft, img.phoneright {
     max-width:190px;
-  }
+}
   
-  .heroright {
-    margin-top:4em;
-  }
+#pall {
+  position: absolute;
+  top: 0;
+  left: 14%;
+}
   
-  .heroright h1 {
-    margin:0;
-    margin-left:1em;
-    font-size:2.25em;
-  }
+.heroright {
+  margin-top:4em;
+  height:444px;
+}
   
-  h1 span {
-    margin:0;
-    width:306px;
-  }
+.heroright h1 {
+  margin:0; 
+  font-size:2.25em;
   
-  .heroright .selection {
-    width:460px;
-    margin:0;
-    margin-bottom:.75em;
+}
+  
+h1 span {
+  margin:0;
+  margin-right:.5em;
+}
+
+.heroright .selection {
+  margin:0;
+  margin:.5em 0;
+  
+}
+
+.circle {
+  width:35px;
+  height:35px;
+}
+
+.circle p {
+  font-size:1.4em;
+  width:94px;
+}
+  
+.claimitnow {
     
-  }
+}
+
+.heroright .circle {
+  margin-right:4em;
+}
   
-  .circle {
-    width:35px;
-    height:35px;
-  }
+.circle.circle-silver {
+    margin-left: 2em;
+}
   
-  .circle p {
-    font-size:1.4em;
-    width:94px;
-  }
-  
-  .claimitnow {
-    display: inline-block;
-    width: 75%;
-    margin:0;
-    margin-left:4em;
-  }
-  
-  .heroright .claimitnow button {
-    margin:0;
-    font-size: 1.5em;
-    letter-spacing: 1px;
-    text-shadow: 0px 1px black;
-    display: inline-block;
-    width: 300px;
-    margin-right: 5.25em;
-  }
+.heroright .claimitnow button {
+    
+}
   
   footer p {
     font-size:1em;
@@ -480,34 +490,49 @@ button#burgerking.navbar-toggle {
 }
 
 .heroleft {
-  margin-left:2em;
+  
 }
 
 .heroright {
   margin:0;
-  margin-left:5em;
+  height:390px;
+  margin-top:2.5em;
+  
+}
+
+.rightbox {
+  margin-right:0;
 }
 
 .heroright h1 {
   margin:0;
   font-size: 2em;
-  margin: 1.25em 0 .25em 0;
-  line-height:36px;
+  line-height:30px;
 }
 
 h1 span {
   margin:0;
-  width:250px;
-  line-height:55px;
+  margin-right:.5em;
+  
 }
 
 .heroright .selection {
-  width: 310px;
   margin:0;
+  margin-bottom:.5em;
+}
+
+#pall {
+  position:absolute;
+  top:0;
+  left:0;
 }
 
 .heroright .circle {
   margin-right: 4em;
+}
+
+.circle.circle-silver {
+    margin-left: 1em;
 }
 
 .circle {
@@ -523,15 +548,11 @@ h1 span {
 }
 
 .claimitnow {
-  width: 92%;
-  margin: 0;
-  margin-top:.75em;
+ 
 }
 
 .heroright .claimitnow button {
-  margin:0;
-  font-size:1.25em;
-  width:245px;
+  
 }
  
   
