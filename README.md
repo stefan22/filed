@@ -30,16 +30,6 @@
 ![](builds/dev/images/iphone6plus.png)
 <hr />
 
-<kbd>iPhone6</kbd>
-
-![](builds/dev/images/iphone6.png)
-<hr />
-
-<kbd>iPhone5</kbd>
-
-![](builds/dev/images/iphone5.png)
-<hr />
-
 
 
 
