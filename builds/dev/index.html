@@ -37,11 +37,13 @@
             <div class="col-md-12 col-sm-12 col-xs-12 text-center hero">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="heroleft">
-                        <div id="pall" class="{{($index == selectedPhone) ? '' : 'away'}}" ng-repeat="phone in phones">
-                            
-                              <img class="phoneleft" src="{{phone.picleft}}" width="210" height="auto" alt="{{phone.phone_color}}">
+                        <div id="pall" ng-repeat="phone in phones" class="{{($index == selectedPhone) ? '' : 'away'}}">
+                      
+                            <img class="phoneleft" src="{{phone.picleft}}" width="210" height="auto" alt="{{phone.phone_color}}">
                                 
-                              <img class="phoneright" src="{{phone.picright}}" width="210" height="auto" alt="{{phone.phone_color}}">  
+                            <img class="phoneright" src="{{phone.picright}}" width="210" height="auto" alt="{{phone.phone_color}}">  
+                               
+                              
                         </div> <!--/. endof pall -->
                     </div> <!--/. endof heroleft --> 
                 </div><!--/. endof col-md-5 --> 
@@ -54,19 +56,19 @@
                             <span>IPhone 7</span>
                             </h1>
                             <div class="selection">
-                                <div class="circle circle-silver" ng-click="selectedPhone = 0" >
+                                <div class="circle circle-silver" ng-click="phoneClaimed(selectedPhone=0)">
                                     <p>Silver</p>
                                 </div>
-                                <div class="circle circle-black" ng-click="selectedPhone = 1">
+                                <div class="circle circle-black" ng-click="phoneClaimed(selectedPhone=1)">
                                     <p>Black</p>
                                 </div>
-                                <div class="circle circle-gold" ng-click="selectedPhone = 2">
+                                <div class="circle circle-gold" ng-click="phoneClaimed(selectedPhone=2)">
                                     <p>Gold</p>
                                 </div>
                             </div>
                             <!--/. endof selection -->
                             <div class="col-md-11 col-md-offset-1 col-sm-12 col-xs-12 claimitnow">
-                                <button type="button" ng-click="phoneClaimed(7)" class="btn btn-primary btn-lg btn-block">Claim it now</button>
+                                <button type="button" ng-click="phoneClaimed(claimed=711)" class="btn btn-primary btn-lg btn-block">Claim it now</button>
                             </div>
                             <!--/. claimitnow -->   
                             </div>
@@ -118,12 +120,32 @@
                     <!--/.. phone info -->  
                 </section>
                 
-               
-                
-                <div class="claimed {{(claimed == 7) ? 'success':'failure'}}">
-                    <p>Your claimed for: {{phones[selectedPhone].phone_model}}</p>
-                </div>
-                
+                <div class="claimed {{(claimed == 711) ? 'success':'failure'}}">
+                    <table cellpadding="1" cellspacing="1" width="100%" border="1">
+                        <tr>
+                            <th colspan="2">Your claimed for:</th>
+                        </tr>
+                        <tr>
+                            <td>Phone: </td>
+                            <td>{{phones[selectedPhone].phone_manufacturer}} {{phones[selectedPhone].phone_model}}</td>
+                        </tr>
+                        <tr>
+                            <td>Model: </td>
+                            <td>{{phones[selectedPhone].phone_model}}</td>
+                        </tr>
+                        <tr>
+                            <td>Color: </td>
+                            <td>{{phones[selectedPhone].phone_color}}</td>
+                        </tr>
+                        <tr>
+                            <td>Price: </td>
+                            <td>{{phones[selectedPhone].phone_price}}</td>
+                        </tr>
+                        <tr>
+                            <td class="shipping" colspan="2">It's ready for shipping!</td>
+                        </tr>
+                    </table>    
+                </div>   
             </div>    
         </div>        
         <!--/. enof row -->

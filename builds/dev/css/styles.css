@@ -386,6 +386,31 @@ dd {
   opacity:0;
 }
 
+/* table */
+
+.claimed table {
+  background: #fff;
+  box-shadow: -1px 1px 5px 0px #676767;
+}
+
+.claimed tr th { 
+  padding:10px 0 10px 30px;
+  font-size:16px;
+}
+
+.claimed tr td {
+  padding: 5px;
+  font-size: 14px;
+  color: #a52419;
+  font-weight: 400;
+}
+
+.claimed td.shipping {
+  color:#121212;
+}
+
+
+
 
 
 

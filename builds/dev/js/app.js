@@ -12,16 +12,23 @@ app.controller('Phones', ['$scope', '$http', '$sce', function($scope,$http,$sce)
       console.log($scope.phones);
       $scope.totalPhones = $scope.phones.length;
       
-   });
-   
-   
-   
-   $scope.phoneColor = function(selectedPhone) {
-     if($scope.selectedPhone == 0) {
-         return $scope.phoneColor = 'pone';
-     } 
       
-   };
+   });//data.json file
+   
+   
+   $scope.phoneClaimed = function(selectedPhone,claimed) {
+     
+       if(selectedPhone > -1 && selectedPhone < 5) {
+          $scope.claimed = -1;  
+          $scope.selectedPhone = selectedPhone;
+          console.log($scope.selectedPhone); 
+         
+       } else if (claimed == 711) {
+          $scope.selectedPhone = selectedPhone;
+          $scope.claimed = 711;
+       }
+         
+   }//phoneClaimed
    
    
   

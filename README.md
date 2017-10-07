@@ -5,6 +5,11 @@
 ![](builds/dev/images/phone-latest.png)
 <hr />
 
+<kbd>phone claimed</kbd>
+
+![](builds/dev/images/claimed.png)
+<hr />
+
 <kbd>landing-page</kbd>
 
 ![](builds/dev/images/landing-page.png)
