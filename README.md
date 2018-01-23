@@ -1,4 +1,4 @@
-# how to
+# angular mobile app
 
 <kbd>phone latest</kbd>
 
